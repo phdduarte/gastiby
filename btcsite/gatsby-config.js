@@ -11,6 +11,7 @@ module.exports = {
     //pathPrefix: '/blog' // Variavel onde podemos colocar todo nosso site dentro desse caminho
     /* Your site config here */
     plugins: [
+        `gatsby-plugin-react-helmet`,
         {
             resolve: `gatsby-plugin-nprogress`,
             options: {
@@ -53,10 +54,10 @@ module.exports = {
                 fonts: [
                     {
                         family: `Roboto`,
-                        variants: [`400`, `700`]
+                        variants: [`300`, `400`, `500`, `700`]
                     }
                 ],
-            },
+            }
         }
     ]
 }
