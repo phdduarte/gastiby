@@ -12,6 +12,7 @@ module.exports = {
     /* Your site config here */
     plugins: [
         `gatsby-plugin-react-helmet`,
+        `gatsby-plugin-offline`,
         {
             resolve: `gatsby-plugin-nprogress`,
             options: {
